@@ -3,7 +3,6 @@
 ## summary 
 summary(cars)
 
-
 ## plot
 plot(pressure)
 
