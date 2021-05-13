@@ -6,21 +6,8 @@ summary(cars)
 ## plot
 plot(pressure)
 
-## SOME EDITS
+## This is demo code so we have something to edit (from Ocean Health Index ohirepos)
 
-
-#' Create GeoJSON from Shapefile
-#' 
-#' Create GeoJSON file needed for interactive map in Shiny app
-#' 
-#' @param shp path to shapefile with .shp extension, needs rgn_id and rgn_name fields
-#' @param js path to output javascript file with variable 'regions' of geojson content
-#' @param geojson path to output GeoJSON file. defaults to *.geojson of *.js file.
-#' 
-#' @details Uses rgdal to write GeoJSON.
-#'  
-#' @keywords geojson shapefile
-#' @export
 shp_to_geojson = function(shp, js, geojson=sprintf('%s.geojson', tools::file_path_sans_ext(js))){
   
   # # debug
