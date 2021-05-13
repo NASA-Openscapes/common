@@ -7,6 +7,7 @@ summary(cars)
 plot(pressure)
 
 ## This is demo code so we have something to edit (from Ocean Health Index ohirepos)
+## Editing this code and committing
 
 shp_to_geojson = function(shp, js, geojson=sprintf('%s.geojson', tools::file_path_sans_ext(js))){
   
